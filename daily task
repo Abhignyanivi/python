@@ -1,0 +1,610 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==============================================
+#FEB 1 DAILY TASK
+==============================================
+Type1: var = "python_interpreter"
+
+var = "python_interpreter"
+print(var[1:3])
+print(var[0:5])
+print(var[-5:-2])
+print(var[:3])
+print(var[3:])
+print(var[:])
+print(var[3:10])
+print(var[2:5])
+print(var[0:10])
+print(var[5:-5])
+print(var[2:8])
+print(var[:8])
+print(var[5:])
+print(var[8:12])
+print(var[12:5])
+
+output:"python_interpreter"
+yt
+pytho
+ret
+pyt
+hon_interpreter
+python_interpreter
+hon_int
+tho
+python_int
+n_interp
+thon_i
+python_i
+n_interpreter
+nter
+empty
+> 
+
+var = "java_compiler_go"
+print(var[2:10])
+print(var[2:10:1])
+print(var[2:10:2])
+print(var[2:10:3])
+print(var[-12:10])
+print(var[-12:10:1])
+print(var[-12:10:2])
+print(var[-12:10:3])
+print(var[5::1])
+print(var[5::2])
+print(var[:5:1])
+print(var[:-5:1])
+print(var[-8::2])
+print(var[3:10:1])
+print(var[3:10:2])
+print(var[3:10:3])
+print(var[5:-5:1])
+print(var[5:-5:2])
+print(var[5:-5:5])
+print(var[:8:4])
+print(var[5::3])
+print(var[::2])
+print(var[12:5:3])
+
+output:"java_compiler_go"
+va_compi
+va_compi
+v_op
+vcp
+_compi
+_compi
+_op
+_m
+compiler_go
+cmie_o
+java_
+java_compil
+plrg
+a_compi
+acmi
+aoi
+compil
+cmi
+cl
+j_
+cpeg
+jv_oplrg
+empty
+>
+==============================================
+#FEB 2 DAILY TASK
+==============================================
+var="Information_Technology"
+print(var[-2:0:-1])
+print(var[5:-5:5])
+print(var[-5:5:-5])
+print(var[5:-5:-5])
+print(var[3:9:-1])
+print(var[9:-10:-2])
+print(var[2:-4:-4])
+print(var[-4:2:-2])
+print(var[0:-1:-3])
+print(var[-3:3:6])
+print(var[::-3])
+print(var[::-2])
+print(var[2:-2:-2])
+print(var[2:-2:2])
+print(var[5:-5:5])
+print(var[3:-3:3])
+print(var[::2])
+print(var[::-5])
+
+output:"information_technology"
+golonhceT_noitamrofn
+mnh
+oTt
+empty
+lncTniar
+empty
+ylhToaoI
+yoohe_otmon
+frainTcnl
+mnh
+oaoThl
+IfrainTcnlg
+yn_an
+>
+
+var="python_is_using_interpreter"
+print(var[5:-5:5])
+print(var[-5:5:-5])
+print(var[5:-5:-5])
+print(var[3:9:-1])
+print(var[9:-10:-2])
+print(var[2:-4:-4])
+print(var[-4:2:-2])
+print(var[0:-1:-3])
+print(var[-3:3:6])
+print(var[::-3])
+print(var[::-2])
+print(var[2:-2:-2])
+print(var[2:-2:2])
+print(var[5:-5:5])
+print(var[3:-3:3])
+print(var[::2])
+print(var[::-5])
+
+output:"python_is_using_interpreter"
+nu_r
+rnii
+empty
+empty
+empty
+empty
+epen_ns_inh
+empty
+empty
+rerngssnt
+rtrrtigius_otp
+empty
+to_suigitrrt
+nu_r
+h__i_tp
+pto_suigitrrtr
+rpis_y
+
+a="computer_science"
+print(a[-10:10:3])
+print(a[-5:-1:1])
+print(a[-8:-2:10])
+print(a[5::3])
+print(a[:5:2])
+print(a[10:14:2])
+print(a[-10:-3:3])
+print(a[5:12:5])
+print(a[3:-3:3])
+print(a[-5:-3:20])
+
+output:computer_science
+es
+ienc
+_
+t_ic
+cmu
+ce
+ese
+tc
+pese
+i
+
+a="Google_chrome_browser"
+print(a[-10:10:3])
+print(a[-5:-1:1])
+print(a[-8:-2:10])
+print(a[5::3])
+print(a[:5:2])
+print(a[10:14:2])
+print(a[-10:-3:3])
+print(a[5:12:5])
+print(a[3:-3:3])
+print(a[-5:-3:20])
+
+output:google_crome_browser
+owse
+_
+ehmbwr
+Gol
+oe
+mbw
+eo
+g_rer
+o
+==============================================
+String methods Tasks Feb 4
+==============================================
+
+
+Task1:
+
+Get one string from user
+identify the middle character of the string
+
+programme:
+b=input("please enter the string:")
+print(b)
+length=len(b)
+print("length of the string is:",length)
+length1=int(len(b)/2)
+print("length of the string is:",length1)
+print(b[length1])
+
+output:
+please enter the string:abhignya
+abhignya
+length of the string is: 8
+length of the string is: 4
+g
+
+Task2:
+
+string1: ***python***
+string1: **python********
+string: ********java*******
+
+a= input("please enter a string of strip: ")
+print(a)
+a1=input("please enter a string of lstrip: ")
+print(a1)
+a2=input("please enter a string of rstrip: ")
+print(a2)
+print("using strip:",a.strip("*"))
+a3=(a1.lstrip("*"))
+a4=(a3.rstrip("*"))
+print("using lstrip:",a4)
+a5=(a2.rstrip("*"))
+a6=(a5.lstrip("*"))
+print("using rstrip:",a6)
+
+output:
+please enter a string of strip: ***python*****  
+***python***
+please enter a string of lstrip: **python********
+**python********
+please enter a string of rstrip: ^^?  ^^?  ********java*******
+********java*******
+using strip: python
+using lstrip: python
+using rstrip: java
+
+Task3: (name<space>float)
+
+collect three strings from user  name<space>float
+
+string1: "ravi 10.30"  
+string2: "meghala 12.19"
+string3: "Gokul 20.20"
+
+split + indexing
+10.30 + 12.19 + 20.20 ===> output ===> add it 42.69
+
+
+string1= input("enter the first string in 'name float':")
+string2= input("enter the second string in 'name float':")
+string3= input("enter the third string in 'name float':")
+string1_list= string1.split()
+string2_list= string2.split()
+string3_list= string3.split()
+final = float(string1_list[1])+float(string2_list[2])+float(string3_list[3])
+print("the addition of float values in string1,string2 and  string3 is :",final)
+
+output:
+
+enter the first string in 'name float':ravi 20.45
+enter the second string in 'name float':amith 45.65
+enter the third string in 'name float':dhruv 12.65
+the addition of float values in string1,string2 and  string3 is :78.75
+
+Task4:
+
+#collect two strings from user
+
+string1: python
+String2: java
+
+output ===> jythonpava64hv
+
+string1: maths
+string2: science
+
+output ===> sathsmcience57te
+
+Task4:
+
+#collect two strings from user
+
+string1: python
+String2: java
+
+str1 = input("enter the first string:")
+str2 = input("enter the second string:")
+str1_len = len(str1)
+str2_len = len(str2)
+final_str = str2[0]+str1[1:]+str1[0]+str2[1:]+str(str1_len)+str(str2_len)+str1[int(str1_len/2)]+str2[int(str2_len/2)]
+
+output:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======================
+Feb 7
+=======================
+
+List
+
+#Create an empty list (two ways)
+#Concatenate with [5,6,7,8]
+#add 8,9,1,5,6,7,8,1 elements to that list
+#Find frequency of 8 (count)
+#find the mean of the list
+#find sum (List) + min + Max 
+#Find median of the list
+#remove duplicates from list and give output in the format of tuple
+
+Study: https://www.w3schools.com/python/python_ref_list.asp
+
+Tuple
+
+#Create two tuples (1,4,5,6,7,8) (5,6,7,8,9)
+#Find the common elements between two tuples
+#Concatenate both tuples and remove duplicates from tuple
+#Find the index value of 9 (after concatenation)
+#multiply above elements 3 times
+
+ Sets
+
+#Create two empty sets
+#update set1 with 7,8,9,1,2,3,4,5,0
+#update set2 with 4,5,6,0
+#check whether set2 is subset of set1 or no ?
+#check whether both have common elements are no ?
+#remove 8 from set 1 and set 2 ==> find the inferences
+#discard 0 from set1 and set2 
+#find collection of both sets ===> set1 and set2
+
+
+
+
+
+
+
+
+
+
