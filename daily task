@@ -466,13 +466,6 @@ string2: science
 
 output ===> sathsmcience57te
 
-Task4:
-
-#collect two strings from user
-
-string1: python
-String2: java
-
 str1 = input("enter the first string:")
 str2 = input("enter the second string:")
 str1_len = len(str1)
@@ -482,6 +475,83 @@ final_str = str2[0]+str1[1:]+str1[0]+str2[1:]+str(str1_len)+str(str2_len)+str1[i
 output:
 
 
+
+
+Task5:
+
+Collect two strings from user
+
+string1: wikipedia
+string2: typescript
+
+output: p  +  c   ===> ascii value of p + ascii value of c  ====>  198
+(ord , chr)
+
+
+Task6:
+
+collect one string from user:
+str1 = input("enter a string: ")
+str1_len = len(str1)
+output_str = str1[0] + str(str1_len-2) + str(str1[str1_len-1])
+print("the output string:",output_str)
+output: 
+string: computer
+output: c6r
+string: mathematics
+output: m9s
+
+
+Task7
+
+Say hello world with python
+string = "hello, world!"
+print(string)
+output:
+hello, world!
+
+
+Task 8
+
+swapcase
+string = input("enter the string to swap:")
+print(string.swapcase())
+output:
+enter the string to swap:i Love mY cOuntry
+I lOVE My CoUNTRY
+
+
+Task9
+
+what;s your name
+first_name = input("enter the first name: ")
+second_name = input("enter the second name: ")
+print("hello" +" " + first_name +" " +second_name)
+
+output:
+enter the first name: abhi
+enter the second name: pria ya
+hello abhi priya
+
+
+Task10:
+
+Mutation
+string = "abhinya"
+l=list(string)
+l[4]="g"
+string="".join(l)
+print(string)
+output:
+abhigya
+
+
+Task11:
+
+Arithmetic operator
+
+Task12:
+python divison
 
 
 
@@ -600,7 +670,14 @@ Tuple
 #find collection of both sets ===> set1 and set2
 
 
+Dict (Feb 9)
 
+#create a dictionary
+#{1:["english","maths","science"], 2:[10,20,30], 3:["bio-botany","bio-zoology","Algebra"]}
+#Extract "bobtn" from above dictionary
+#Extract "arbeg" from above dictionary
+#print all keys in dictionary and convert it into tuple
+#Find the average of all numbers available under key "2"
 
 
 
