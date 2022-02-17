@@ -180,6 +180,22 @@ Output:
 Li_odd = [3,5,7,9]
 Li_even = [4,2,8,10]
 
+programm:
+li1 = [3,4,5,2,7,8,9,10]
+li2 = []
+li3 = []
+for i in li1:
+    if i %2 == 0:
+        li2.append(i)
+    else:
+        li3.append(i)
+print("even numbers:",li2)
+print("odd numbers:",li3)
+
+output:
+even numbers: [4, 2, 8, 10]
+odd numbers: [3, 5, 7, 9]
+
 #Li1 = [3,4,5,2,7,8,9,10]
 
 Task6:
