@@ -66,6 +66,24 @@ Task4:
 
 #65
 
+program:
+
+
+
+
+
+
+
+Task 5:
+
+#collect three marks from user
+#calculate mark1 + mark2 + mark3 / 100
+
+if calculate > 90 ===> Grade A
+if calculate > 75 ==> Grade B
+calculate > 50  ==> grade C
+Other wise ===> Grade D
+
 programm:
 a = int(input("please enter the marks1:"))
 b = int(input("please enter the marks2:"))
@@ -85,17 +103,6 @@ please enter the marks1:97
 please enter the marks2:77
 please enter the marks3:47
 Grade C
-
-
-Task 5:
-
-#collect three marks from user
-#calculate mark1 + mark2 + mark3 / 100
-
-if calculate > 90 ===> Grade A
-if calculate > 75 ==> Grade B
-calculate > 50  ==> grade C
-Other wise ===> Grade D
 
 
 
