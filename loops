@@ -66,6 +66,25 @@ Task4:
 
 #65
 
+programm:
+a = int(input("please enter the marks1:"))
+b = int(input("please enter the marks2:"))
+c = int(input("please enter the marks3:"))
+total=(a + b + c)/3
+if total>90:
+    print("Grade A")
+elif total>75:
+    print("Grade B")
+elif total>50:
+    print("Grade C")
+else:
+    print("Grade D")
+
+output:
+please enter the marks1:97
+please enter the marks2:77
+please enter the marks3:47
+Grade C
 
 
 Task 5:
