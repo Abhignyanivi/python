@@ -1,11 +1,12 @@
-========================
+================================================================================================================================================================================
 Feb 15
-=========================
+==================================================================================================================================================================================
 
 
-#Task1
+Task1
 
 #hackerrank Write a function
+
 
 #Task2
 
@@ -19,6 +20,24 @@ Feb 15
 #Multiple of 5 ===> buzz
 #Multiple of 3 and 5 ===> Fizzbuzz
 #None ==> Invalid number
+
+programm:
+int1 = int(input("please enter the number:"))
+if(int1%3 ==0 and int1%5 == 0):
+    print("FIZZBUZZ")
+elif(int1%3 == 0):
+    print("FIZZ")
+elif(int1%5 == 0):
+    print("BUZZ")
+
+else:
+    print("invalid marks")
+
+output:
+please enter the number:60
+FIZZBUZZ
+
+
 
 Task4:
 
