@@ -282,14 +282,12 @@ for i in range(num1,num2):
         list1.append(i)
 print(list1)
 output:
+
 Enter starting range10
 Enter ending range1000 
 [16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96]
 
-
-
 Task5:
-
 
 Input:
 Li1 = [3,4,5,2,7,8,9,10]
@@ -325,10 +323,36 @@ neg_LI = [-1,-7,-3]
 pos_LI = []
 Zeros = []
 
+programm:
+list1=[-1,-7,8,10,20,21,17,28,-3,0,0]
+pos=[]
+neg=[]
+zero=[]
+for i in list1:
+    if i>0:
+        pos.append(i)
+    elif i<0:
+        neg.append(i)
+    elif i==0:
+        zero.append(i)
+print("Positive elements",pos)
+print("Negative elements",neg)
+print("Zeros",zero)
+print("Positive numbers in list:",len(pos))
+print("Negaive numbers in list:",len(neg))
+print("Zeros numbers in list:",len(zero))
+
 Numeber of postivie ele: 7
 Number nega: 3
 Number of zeros: 2
 
+output:
+Positive elements [8, 10, 20, 21, 17, 28]
+Negative elements [-1, -7, -3]
+Zeros [0, 0]
+Positive numbers in list: 6
+Negaive numbers in list: 3
+Zeros numbers in list: 2
 
 Task7:
 
