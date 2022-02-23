@@ -129,9 +129,9 @@ Grade C
 
 
 
-===============================
+=============================================================================================================================================================================
 Feb 16
-==============================
+=============================================================================================================================================================================
 
 Task1:
 
@@ -235,6 +235,28 @@ clues Task2 and Task3
 #1. get number of elements from user
 #Loop through range
 #append to list/dicti
+programm:
+
+dict1={}
+elements=int(input("Enter the size of the dictionary\t"))
+for i in range(elements):
+    keys=int(input("Enter the Keys\t"))
+    values=input("enter the Values\t")
+    dict1[keys]=values
+print(dict1)
+
+output:
+
+Enter the size of the dictionary	4
+Enter the Keys	5
+enter the Values	abhi
+Enter the Keys	6
+enter the Values	priya
+Enter the Keys	7
+enter the Values	madhuri
+Enter the Keys	8
+enter the Values	madhumitha
+{5: 'abhi', 6: 'priya', 7: 'madhuri', 8: 'madhumitha'}
 
 Task4:
 
@@ -250,6 +272,20 @@ input 10 100
 multiples of 8
 
 [16,24,32.....,96]
+
+programm:
+num1=int(input("Enter starting range"))
+num2=int(input("Enter ending range"))
+list1=[]
+for i in range(num1,num2):
+    if i%8==0:
+        list1.append(i)
+print(list1)
+output:
+Enter starting range10
+Enter ending range1000 
+[16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96]
+
 
 
 Task5:
